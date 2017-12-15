@@ -30,7 +30,7 @@
 	width: 0px;
 	-webkit-transition: width 0.3s linear 0s;
 	transition: width 0.3s linear 0s;
-	z-index:10;
+	z-index:20;
 	}
 	
 	.image:hover + .imagebig {
@@ -70,9 +70,11 @@
 	  margin: 20px auto;
 	  }
 
-	div.video-container iframe {
-	  position: absolute;
-	 }
+    div.explainedvideo {
+		max-width: 100%;
+		max-height: 100%;
+	
+	}
 	
 
   </style>
@@ -117,10 +119,10 @@
 	<div>
       <h1>Broader Issues</h1>
       <p>Below is a short video I've produced to explain issues of public and private rights involving snaphat. Enjoy!</p>
-	  </div>
-		<div>
-		<iframe width="420" height="315" src="https://www.youtube.com/watch?v=eWEvEIeR6Es"/>
-			</div>
+    </div>
+     <div class="explainedvideo">
+		<iframe src="https://www.youtube.com/watch?v=eWEvEIeR6Es"/>
+     </div>
    </div>
 </body>
 </html>
